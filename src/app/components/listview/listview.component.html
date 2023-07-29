@@ -1,0 +1,32 @@
+<!-- <p>listview works!</p> -->
+<div class="container-fluid">
+    <table class="table table-hover">
+      <thead>
+        <th></th>
+        <th >
+          FirstName
+        </th>
+        <th>LastName</th>
+        <th>Address</th>
+        <th>City</th>
+         <th>State</th>
+         <th>OrderTotal</th>
+         <th></th>
+      </thead>
+      <tbody>
+        <tr *ngFor="let customer of Customer">
+          <td><img [src]="customer.img"></td>
+          <td style="color: rgb(126, 126, 239);">{{customer.FirstName}}</td>
+          <td>{{customer.LastName}}</td>
+          <td>{{customer.Address}}</td>
+          <td>{{customer.City}}</td>
+          <td>{{customer.State}}</td>
+          <td>
+            
+        </td>
+          <td><button>ViewOrders</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div> 
+  

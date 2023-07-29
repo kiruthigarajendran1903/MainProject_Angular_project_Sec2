@@ -1,0 +1,23 @@
+[
+    {
+       "id":1,
+       "product":"Basketball",
+       "cost":"$7.99"
+    },
+    {
+      "id":2,
+      "product":"Shoes",
+      "cost":"$199.99"
+   },
+   {
+    "id":3,
+    "product":"Frisbee",
+    "cost":"$2.99"
+  },
+  {
+    "id":4,
+    "product":"Hat",
+    "cost":"$5.99"
+  }
+  ]
+  

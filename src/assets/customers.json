@@ -1,0 +1,49 @@
+[
+    {
+      "img":"../assets/images/bussiness-man.png",
+      "id":1,
+      "FirstName":"Ted",
+      "LastName":"James",
+      "Address":"1234 Anywhere St.",
+      "City":"Phoneix",
+      "State":"Arizona",
+      "orders": [
+          {
+            "id":1,
+            "items":[
+              {
+                "product":"Basketball",
+                "cost":"$7.99"
+              },
+              {
+                "product":"Shoes",
+                "cost":"$199.99"
+              }]
+          }
+      ]
+    },
+    {
+      "img":"../assets/images/woman.png",
+      "id":2,
+      "FirstName":"Michelle",
+      "LastName":"Thompson",
+      "Address":"345 Cedar Point Ave.",
+      "City":"Encinitas",
+      "State":"California",
+      "orders": [
+        {
+          "id":1,
+          "items":[
+            {
+              "product":"Frisbee",
+               "cost":"$2.99"
+            },
+            {
+              "product":"Hat",
+              "cost":"$5.99"
+            }
+          ]
+        }
+      ]
+    }
+  ]

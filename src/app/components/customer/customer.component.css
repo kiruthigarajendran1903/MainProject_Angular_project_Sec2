@@ -1,0 +1,32 @@
+.container-fluid{
+    margin-left: 50px;
+    margin-top: 5px;
+    
+  }
+  button{
+    border:none;
+    background: none;
+    margin-right: 70px;
+    
+  }
+  input{
+    width: 250px;
+    height:30px;
+  }
+  .line{
+    display: flex;
+  }
+  .filter{
+    float: right;
+    margin-left: 20px;
+  }
+  a{
+    text-decoration: none;
+    
+  }
+  a:link,a:visited{
+    color: grey;
+  }
+  a:hover{
+    color:black;
+  }

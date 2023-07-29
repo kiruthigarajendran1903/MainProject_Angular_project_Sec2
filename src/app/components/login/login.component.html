@@ -1,0 +1,53 @@
+<!-- <p>login works!</p> -->
+<div class="container">
+    <form [formGroup]="loginForm" (ngSubmit)="loginuser()">
+    
+      <h5><span class="bi bi-lock-fill">Login</span></h5>
+      <div>
+        <label for="username" >Email:</label>
+        <input type="text" id="username"  formControlName="user" />
+        <span style="color: red;" *ngIf="user && user.invalid && user.touched"> Enter valid Username </span>
+      </div>
+      <div>
+        <label for="password" >Password:</label>
+        <input type="password" id="password"  formControlName="password" />
+        <span style="color: red;" *ngIf="password && password.invalid && password.touched"> Enter valid password </span>
+      </div>
+      <button type="submit" class=" btn btn-success"[disabled]="loginForm.invalid">Login</button>
+    </form>  
+    
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- <div>
+    <form [formGroup]="loginForm" (ngSubmit)="loginuser()">
+      <input type="text" placeholder="Enter Name" formControlName="user">
+      <br>
+      <span style="color:red;" *ngIf="user && user.invalid && user..touched"></span>
+      <br>
+      <input type="password" placeholder="Enter Valid Password" formControlName="password">
+      <span style="color:red;" *ngIf="user && user.invalid && user..touched"></span>
+  
+    </form>
+     <h2>Login</h2>
+    <form (ngSubmit)="submitForm()" loginForm="ngForm">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" [(ngModel)]="name" required>
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" [(ngModel)]="password" required minlength="6" maxlength="10" pattern="^(?=.*[a-zA-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]+$">
+      </div>
+      <button type="submit" [disabled]="loginForm.valid">Submit</button> 
+    </form> 
+  </div> -->
+  

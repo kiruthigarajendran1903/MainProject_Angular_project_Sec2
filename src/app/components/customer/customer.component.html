@@ -1,0 +1,21 @@
+<!-- <p>customer works!</p> -->
+<div class="container-fluid">
+    <h4><span class="bi bi-person-fill">Customers</span></h4>
+    <div class="line">
+      <div>
+        <button><a routerLink="cardview"><span class="bi bi-grid-fill">Cardview</span></a></button>
+          <button><a routerLink="listview"><span class="bi bi-list">ListView</span></a></button>
+          <button><a routerLink="mapview"><span class="bi bi-geo-alt">Mapview</span></a></button>
+          <button><a routerLink="newcustomer"><span class="bi bi-plus-lg">NewCustomer</span></a></button>
+         <router-outlet></router-outlet>
+          
+      </div>
+      <div class="filter">
+        <fieldset> Filter :
+          <legend> <input type="text"></legend>
+         </fieldset>
+      </div>
+    </div>
+  </div>
+  
+  

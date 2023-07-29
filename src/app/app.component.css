@@ -1,0 +1,31 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 1em;
+    background-color: rgb(54, 85, 241);
+  }
+  
+  li {
+    display: inline;
+    color:white;
+  }
+  a{
+   text-decoration: none;
+   color: white;
+   padding: 1em;
+   position: static;
+   margin-left: 25px;
+  }
+  a:hover{
+    background-color: aliceblue;
+    color: grey;
+   
+   
+  }
+  img{
+    width:2.5em;
+    position: relative;
+    
+  
+  }
+  
